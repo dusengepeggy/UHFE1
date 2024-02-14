@@ -67,7 +67,7 @@ function User() {
   
 
   const fetchUsers = () => {
-    fetch("http://localhost:4000/api/UH/v1/user/crud/all")
+    fetch("https://umudugudu-hub.onrender.com/api/UH/v1/user/crud/all")
       .then((res) => res.json())
       .then((data) => {
         setUsers(data.allUser);
