@@ -24,7 +24,7 @@ function Annoucement() {
     }
 
     const data = { userType, title, message };
-    fetch("http://localhost:4000/api/UH/v1/citizen/sms/announcement", {
+    fetch("https://umudugudu-hub.onrender.com/api/UH/v1/citizen/sms/announcement", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),

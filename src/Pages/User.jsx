@@ -37,7 +37,7 @@ function User() {
       return;
     }
 
-    fetch(`http://localhost:4000/api/UH/v1/user/crud/delete/?id=${id}`, {
+    fetch(`https://umudugudu-hub.onrender.com/api/UH/v1/user/crud/delete/?id=${id}`, {
       method: "DELETE",
     }).then((res) => {
       if (res.status === 200) {

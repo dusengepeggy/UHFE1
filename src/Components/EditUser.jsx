@@ -38,7 +38,7 @@ import { MdCancelPresentation } from "react-icons/md";
 
     setUpdating(true);
     await axios
-      .put("http://localhost:4000/api/UH/v1/user/crud/update", updates)
+      .put("https://umudugudu-hub.onrender.com/api/UH/v1/user/crud/update", updates)
       .then((res) => {
         setUpdating(false);
         handleClose();

@@ -47,7 +47,7 @@ function Register() {
     };
 
     await axios
-      .post("http://localhost:4000/api/UH/v1/user/crud/add", data)
+      .post("https://umudugudu-hub.onrender.com/api/UH/v1/user/crud/add", data)
       .then((res) => {
         notify("success", "User Registered successfully");
         setFirstName("");

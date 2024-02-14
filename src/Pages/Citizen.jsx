@@ -59,7 +59,7 @@ function Citizen() {
 
   useEffect(() => {
     if (search === "") {
-      fetch("http://localhost:4000/api/UH/v1/citizen/list")
+      fetch("https://umudugudu-hub.onrender.com/api/UH/v1/citizen/list")
         .then((res) => res.json())
         .then((data) => {
           setCitizens(data.citizen);

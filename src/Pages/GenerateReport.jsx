@@ -51,7 +51,7 @@ function Generatereport() {
   // }, []);
 
   const fetchCitizen = () => {
-    fetch("http://localhost:4000/api/UH/v1/citizen/list")
+    fetch("https://umudugudu-hub.onrender.com/api/UH/v1/citizen/list")
       .then((res) => res.json())
       .then((data) => {
         setFamilies(data.citizen);
@@ -60,7 +60,7 @@ function Generatereport() {
 
   const fetchReport = () => {
     // fetch childrens
-    fetch("http://localhost:4000/api/UH/v1/dashboard/getData")
+    fetch("https://umudugudu-hub.onrender.com/api/UH/v1/dashboard/getData")
       .then((res) => res.json())
       .then((data) => {
         setReportData(data)
