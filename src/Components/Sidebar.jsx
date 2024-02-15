@@ -105,7 +105,7 @@ const Sidebar = ({ children }) => {
           <div className="email">{email!==null?email:JSON.parse(localStorage.getItem("userInfo"))?.email} <br />
           Mudugudu
           {/* {role!==null?role:JSON.parse(localStorage.getItem("userInfo"))?.role}  */}
-          <br />
+          {/* <br /> */}
           
            </div>
          {/* <div className="login-role"> {role}</div> */}
