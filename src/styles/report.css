@@ -79,5 +79,5 @@ margin-left: 40%;
 }
 .mainreport{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
