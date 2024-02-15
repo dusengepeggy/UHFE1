@@ -89,7 +89,7 @@ console.log("data to be edited", citizenToEdit);
     if(!ConfirmDelete){
       return;
     }
-    fetch(`http://localhost:4000/api/UH/v1/citizen/delete/?id=${id}`,{
+    fetch(`https://umudugudu-hub.onrender.com/api/UH/v1/citizen/delete/?id=${id}`,{
     method: "DELETE" ,
     }).then((res)=>{
       if(res.status ===200){
