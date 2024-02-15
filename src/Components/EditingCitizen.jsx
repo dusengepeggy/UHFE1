@@ -505,7 +505,7 @@ function EditingCitizen({
           <button type='submit' className='reg-btn'>
           {updating ? "Updating..." : "Update"}
              </button>
-             <div className="cancel-update-user" onClick={handleClose}>  <MdCancelPresentation size={20} /> Cancel</div>
+             <div className="cancel-update-citizens" onClick={handleClose}>  <MdCancelPresentation size={20} /> Cancel</div>
         </form>
       </div>
       </>

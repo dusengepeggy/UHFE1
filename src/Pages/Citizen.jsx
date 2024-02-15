@@ -157,7 +157,7 @@ console.log("data to be edited", citizenToEdit);
           <tbody>
             {citizens.length > 0 ? (
               records.map((citizen) => (
-                <tr data-aos="fade-up" key={citizen._id}>
+                <tr  key={citizen._id}>
                   <td>{citizen.nationalId}</td>
                   <td>{citizen.fullNames}</td>
                   <td>{citizen.email}</td>
