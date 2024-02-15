@@ -80,5 +80,7 @@ margin-left: 40%;
 .mainreport{
     display: flex;
     justify-content: space-between;
-    gap: 30%
+    gap: 30%;
+    margin-left: 100%;
+
 }
