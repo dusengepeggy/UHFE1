@@ -85,6 +85,7 @@ function Generatereport() {
         <h2 data-aos="fade-down" className="reports">
           Welcome to <br />VILLAGE-CONNECT
         </h2>
+        <br />
         <div className="mainreport">
 
         <div className="report1">
