@@ -98,7 +98,7 @@ console.log("data to be edited", citizenToEdit);
       }else{
         alert("Failed to delete citizen");
       }
-      window.location.reload();
+      // window.location.reload();
     });
 
   };
