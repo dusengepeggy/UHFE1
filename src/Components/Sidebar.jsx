@@ -102,7 +102,10 @@ const Sidebar = ({ children }) => {
             {/* <FaRegUser size={60} /> */}
           </div>
         </div>
-          <div className="email">{email!==null?email:JSON.parse(localStorage.getItem("userInfo"))?.email} <br />{role!==null?role:JSON.parse(localStorage.getItem("userInfo"))?.role}</div>
+          <div className="email">{email!==null?email:JSON.parse(localStorage.getItem("userInfo"))?.email} <br />
+          {role!==null?role:JSON.parse(localStorage.getItem("userInfo"))?.role} <br />
+          Mudugudu
+           </div>
          {/* <div className="login-role"> {role}</div> */}
          {/* <div>{data?.user}</div> */}
         
