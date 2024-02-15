@@ -83,7 +83,7 @@ function Generatereport() {
     <>
       
         <h2 data-aos="fade-down" className="reports">
-          Welcome to <br />UMUDUGUDU-HUB
+          Welcome to <br />VILLAGE-CONNECT
         </h2>
         <div className="mainreport">
 
