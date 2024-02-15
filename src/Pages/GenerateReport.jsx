@@ -81,10 +81,12 @@ function Generatereport() {
 
   return (
     <>
-      <div>
+      
         <h2 data-aos="fade-down" className="reports">
           Welcome to <br />UMUDUGUDU-HUB
         </h2>
+        <div className="mainreport">
+
         <div className="report1">
           <h3 data-aos="fade-down" className="h3report">
             {" "}
