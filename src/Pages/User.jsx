@@ -144,7 +144,7 @@ function User() {
             <tbody>
               {users.length > 0 ? (
                 records.map((user, index) => (
-                  <tr data-aos="fade-up" key={user._id}>
+                  <tr key={user._id}>
                     <td>{index + 1}</td>
                     <td>{user.firstName}</td>
                     <td>{user.lastName}</td>

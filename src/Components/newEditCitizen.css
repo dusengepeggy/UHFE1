@@ -8,3 +8,24 @@
     
 }
 
+.cancel-update-citizens{
+    margin-left: 30%;
+    margin-top: 8%;
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    border: 1px solid rgb(154, 80, 80);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1% 4%;
+    width: 27%;
+    border-radius: 5px;
+}
+.cancel-update-citizens:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
