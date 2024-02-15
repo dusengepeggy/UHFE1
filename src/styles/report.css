@@ -1,5 +1,5 @@
 .report1{
-    width: 600px;
+    width: 500%;
     height: 250px;
    
     /* margin-left: 80%; */
@@ -81,6 +81,6 @@ margin-left: 40%;
     display: flex;
     justify-content: space-between;
     gap: 30%;
-    margin-left: 100%;
+    margin-left: 300%;
 
 }
