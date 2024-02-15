@@ -6,6 +6,7 @@ import { IoNotificationsOutline } from "react-icons/io5";
 import { RiGroupLine } from "react-icons/ri";
 import { BsBarChartLineFill } from "react-icons/bs";
 import { FaRegUser } from "react-icons/fa";
+// import {useNavigate} from "react-router-dom"
 
 import { FaUserPlus } from "react-icons/fa";
 import { useSearchParams } from 'react-router-dom';
@@ -13,6 +14,8 @@ import { useSearchParams } from 'react-router-dom';
 const Sidebar = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
+  // const navigate = useNavigate()
+
 
   let [searchParams] = useSearchParams();
 
@@ -66,7 +69,8 @@ const Sidebar = ({ children }) => {
 
   const logout = () => {
     localStorage.clear();
-    window.location.href = "https://uhfe.vercel.app/login";
+    window.location.href = "https://uhfe-peggys-projects.vercel.app/login";
+    // navigate('/')
   };
 
   //button js handler
