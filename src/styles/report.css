@@ -14,6 +14,8 @@
 .report2{
     width: 600px;
     height: 250px;
+    padding: 6px 100px;
+
     
     /* margin-left: 60vh; */
     /* margin-top: -38vh; */
@@ -25,6 +27,8 @@
 .report3{
     width: 600px;
     height: 250px;
+    padding: 6px 100px;
+
     
     /* margin-left: 107vh; */
     /* margin-top: -38vh; */
@@ -81,7 +85,7 @@ margin-left: 40%;
 .mainreport{
     display: flex;
     justify-content: space-between;
-    gap: 30%;
-    margin-left: 300%;
+    gap: 60px;
+    margin-left: 100%;
 
 }
