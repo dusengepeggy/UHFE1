@@ -9,6 +9,8 @@
     box-shadow: rgba(7, 4 ,4 0.5);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     /* margin-top: 14vh; */
+    align-items: center;
+    text-align: center;
     
 }
 .report2{
@@ -21,7 +23,9 @@
     /* margin-top: -38vh; */
     background-color: #DCCEDA;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5)
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    text-align: center;
 
 }
 .report3{
@@ -35,6 +39,8 @@
     background-color: #DCCEDA;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    text-align: center;
     
     
 }
@@ -86,6 +92,6 @@ margin-left: 40%;
     display: flex;
     justify-content: space-between;
     gap: 60px;
-    margin-left: 100%;
+    margin-left: 80%;
 
 }
